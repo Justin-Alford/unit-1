@@ -28,10 +28,10 @@ function cities(){
 	];
 
     // Create the table
-	var table = document.createElement("table");  
+    var table = document.createElement("table");  
     
     // Create a header
-	var headerRow = document.createElement("tr");  
+    var headerRow = document.createElement("tr");  
     
     // Append header to table
 	table.appendChild(headerRow);                   
@@ -48,7 +48,7 @@ function cities(){
 	});
 
     // Append the table to the div
-	document.querySelector("#mydiv").appendChild(table);
+    document.querySelector("#mydiv").appendChild(table);
 
     // Pass the cityPop array to the addColumns function
 	addColumns(cityPop); 
@@ -124,7 +124,6 @@ function addEvents(){
     
     // Create pop up box when text is clicked
 	function clickme(){    
-
 		alert('Hey, you clicked me!');
 	};
 
